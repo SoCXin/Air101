@@ -5,7 +5,7 @@
 
 ## [描述](https://github.com/sochub/STM32F3/wiki) 
 
-STM32F3系列与[STM32F1](https://github.com/sochub/STM32F1)系列引脚兼容，提供了cortex M3向cortex M4内核迁移途径，相比M4内核的[STM32F4](https://github.com/sochub/STM32F4)系列有更低的价格。
+[STM32F3](https://github.com/sochub/STM32F3)系列采用cortex M4F + DSP的核心架构，主频72MHz，所属的外设偏向输出控制，主要应用于机电控制类场景。
 
 [![sites](SoC/STM32F3.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f3-series.html) 
 
