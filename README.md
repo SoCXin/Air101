@@ -1,22 +1,30 @@
-﻿# [HK32F103](https://github.com/SoCXin/HK32F103)
+﻿# [Air101](https://github.com/SoCXin/Air101)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[HK](http://www.hsxp-hk.com/)
-#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M3](https://github.com/SoCXin/CM3)
-#### [Level](https://github.com/SoCXin/Level)：96MHz
+* [openluat](http://www.openluat.com/): [RISC-V](https://github.com/SoCXin/RISC-V)
+* [L1R3](https://github.com/SoCXin/Level): 240 MHz
 
-## [HK32F103简介](https://github.com/SoCXin/HK32F103/wiki)
+## [简介](https://github.com/SoCXin/Air101/wiki)
 
-[HK32F103](https://github.com/SoCXin/HK32F103)
+[Air101](https://github.com/SoCXin/Air101)
 
-### [资源组成](https://github.com/SoCXin/HK32F103)
+[![sites](docs/Air101.png)](http://www.chipsea.com/8-bit-pd-mcu/Air101.html)
 
-* [文档](docs/)
-* [资源](src/)
+### 关键特性
+
+* 288KB SRAM，2MB FLASH
+* QFN32 (18IO)
+
+
+### [资源收录](https://github.com/SoCXin)
+
+* [参考资源](src/)
+* [相关文档](docs/)
+* [典型应用](project/)
+* [Xin文档](https://docs.soc.xin/Air101)
 
 ### [选型建议](https://github.com/SoCXin)
 
-[HK32F103](https://github.com/SoCXin/HK32F103)
 
-###  [SoC芯平台](http://www.SoC.Xin)
+### [探索芯世界 www.SoC.Xin](http://www.SoC.Xin)
