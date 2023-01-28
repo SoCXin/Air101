@@ -1,34 +1,38 @@
 {
-    "type":"MCU",
-    "name":"Air101",
-    "title": "openluat Air101",
-    "description":"openluat MCU",
+    "type":"SoC",
+    "name":"GD32W515",
+    "title": "GigaDevice GD32W515 SoC",
+    "description":"GigaDevice Wi-Fi SoC",
     "Core": {
-        "num": 1,
-        "type":"8051",
-        "Freq":20,
-        "DMIPS": 59,
-        "CoreMark": 142
+        "CoreNum": 1,
+        "Core":"Cortex-M33",
+        "Fmax":180,
+        "DMIPS": 244,
+        "CoreMark": 547
     },
     "manufacturer": {
-        "vendor":"openluat",
-        "homepage":"http://www.openluat.com"
+        "vendor":"GigaDevice",
+        "homepage":"https://www.gigadevice.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SoCXin/Air101.git"
+        "url": "https://github.com/SoCXin/GD32W515.git"
     },
     "version":"1.0.0",
-    "series":["Air101"],
-    "package":["QFN32","QFN24"],
-    "peripheral": ["PD","ADC","USART","SPI","I2C","I2S"],
+    "series":["GD32W515"],
+    "package":["QFN56","QFN36"],
+    "peripheral": ["WiFi","UART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [1.6,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
     "keywords": [
-        "dev-platform",
-        "ARM",
-        "Cortex-M",
-        "openluat",
-        "MCU",
-        "ADC","USART","I2C","RTC","SPI",
-        "3.6V","1.8V"
+        "Cortex-M33",
+        "GigaDevice","40nm",
+        "WiFi","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.6V"
     ]
 }
+

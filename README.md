@@ -1,30 +1,27 @@
-﻿# [Air101](https://github.com/SoCXin/Air101)
+﻿# [GD32W515](https://doc.soc.xin/GD32W515)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+* [GigaDevice](https://www.gigadevice.com/): [Cortex-M33](https://github.com/SoCXin/Cortex)
+* [L3R3](https://github.com/SoCXin/Level): 180 MHz
 
-* [openluat](http://www.openluat.com/): [RISC-V](https://github.com/SoCXin/RISC-V)
-* [L1R3](https://github.com/SoCXin/Level): 240 MHz
+## [简介](https://github.com/SoCXin/GD32W515/wiki)
 
-## [简介](https://github.com/SoCXin/Air101/wiki)
+[GD32W515](https://www.gd32mcu.com/cn/product/m33) 片上集成了2.4GHz单流IEEE802.11b/g/n MAC/Baseband/RF射频模块。Cortex-M33内核基于Armv8-M指令集架构，支持DSP指令扩展和单精度浮点运算(FPU)，还集成了TrustZone硬件安全机制，支持独立的存储访问空间，提供了系统开发所必需的安全性和灵活性。
 
-[Air101](https://github.com/SoCXin/Air101)
+### 关键参数
 
-[![sites](docs/Air101.png)](http://www.chipsea.com/8-bit-pd-mcu/Air101.html)
-
-### 关键特性
-
-* 288KB SRAM，2MB FLASH
-* QFN32 (18IO)
+* 180 MHz Cortex-M33
+* 448KB SRAM + 2048KB FLASH
+* Tx Max 21dBm，Rx Sensitivity -97.6dBm
 
 
-### [资源收录](https://github.com/SoCXin)
+## [资源收录](https://github.com/SoCXin)
 
 * [参考资源](src/)
-* [相关文档](docs/)
-* [典型应用](project/)
-* [Xin文档](https://docs.soc.xin/Air101)
+* [参考文档](docs/)
+* [参考工程](project/)
 
-### [选型建议](https://github.com/SoCXin)
+## [选型建议](https://github.com/SoCXin/GD32W515)
 
+[GD32W515](https://item.szlcsc.com/5833831.html) 同主频下的代码执行效率相比市场Cortex®-M4产品提升了10%-20%，相比Cortex®-M23产品的性能提升超过40%。
 
-### [探索芯世界 www.SoC.Xin](http://www.SoC.Xin)
+## [www.SoC.xin](http://www.SoC.Xin)
